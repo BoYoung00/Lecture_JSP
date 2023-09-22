@@ -4,8 +4,6 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
     <welcome-file-list>
-        <welcome-file>/include_ActionForward.jsp</welcome-file>
+        <welcome-file>request02.jsp</welcome-file>
     </welcome-file-list>
-
-
 </web-app>
