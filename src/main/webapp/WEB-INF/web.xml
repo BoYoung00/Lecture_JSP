@@ -4,6 +4,18 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
     <welcome-file-list>
-        <welcome-file>week3/include_main.jsp</welcome-file>
+        <welcome-file>week9/tryCatch.jsp</welcome-file>
     </welcome-file-list>
+    <error-page>
+        <error-code> 500 </error-code>
+        <location>/week9/errorCode_error.jsp</location>
+    </error-page>
+    <error-page>
+        <exception-type> java.lang.ArithmeticException </exception-type>
+        <location>/week9/exceptionType_error1.jsp</location>
+    </error-page>
+    <error-page>
+        <exception-type> java.lang.NumberFormatException </exception-type>
+        <location>/week9/exceptionType_error2.jsp</location>
+    </error-page>
 </web-app>
